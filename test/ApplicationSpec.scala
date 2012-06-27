@@ -29,5 +29,9 @@ class ApplicationSpec extends Specification {
         contentAsString(home) must contain ("Your new application is ready.")
       }
     }
+
+    "crash and burn" in {
+      true must beFalse
+    }
   }
 }
