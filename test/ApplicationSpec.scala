@@ -30,8 +30,5 @@ class ApplicationSpec extends Specification {
       }
     }
 
-    "crash and burn" in {
-      true must beFalse
-    }
   }
 }
